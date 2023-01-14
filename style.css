@@ -26,6 +26,10 @@
   font-weight: 600;
 }
 
+.hide{
+  display: none;
+}
+
 
 /* Header Styles */
 .nav-container {
@@ -378,3 +382,91 @@ footer {
   font-size: 45px;
   color: #FF5959;
 }
+
+
+/* Responsive for mobile */
+
+@media screen and (max-width: 568px) {
+  .nav-right ul {
+    flex-direction: column;
+    text-align: end;
+}
+
+.banner {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.nav-container {
+  position: unset;
+}
+
+.donate-container {
+  margin-top: 50px;
+  padding: 20px 20px;
+}
+
+.donate-container .amount ul {
+ flex-direction: column;
+}
+
+.donate-container .input-amount {
+  height: 60px;
+  width: auto;
+}
+
+.donate-plan-container {
+  margin-top: 80px;
+  padding: 10px;
+  margin-bottom: 80px;
+}
+
+.card-container {
+  flex-direction: column;
+  align-items: center;
+}
+
+.feature-1 {
+  flex-direction: column;
+}
+
+.email {
+  padding: 10px;
+}
+}
+
+/* Medium Siz Devices */
+
+@media screen and (min-width:577px) and (max-width:1024px) {
+  .donate-container {
+    margin-top: 80px;
+    padding: 0 50px;
+}
+
+.banner-container h1 {
+  font-size: 62px;
+  line-height: 79px;
+}
+
+.banner-container p {
+  font-size: 31px;
+  line-height: 57px;
+}
+
+.donate-plan-container {
+  margin-top: 80px;
+  padding: 0 20px;
+}
+
+.card-1, .card-2, .card-3 {
+  height: 410px;
+}
+
+.email {
+  margin-top: 80px;
+  padding: 0 30px;
+  margin-bottom: 50px;
+}
+}
+
+/* Ipad Air */
